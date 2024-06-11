@@ -1,12 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My First Web Page</title>
+    <title>Jerry's Photo Portfolio</title>
+    <link rel="stylesheet" href="colors.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Welcome to my first web page!</h1>
-    <p>This is a paragraph of text.</p>
-    <p>This is another paragraph of text.</p>
-	<button onclick="document.location='new.html'" type="button">Useless button</button>
+    <header>
+        <h1>Photo Portfolio</h1>
+    </header>
+    
+    <main>
+        <div>
+            <h2>Gallery</h2>
+            <!-- Add your photo gallery here -->
+            <div class="row">
+                <div class="column">
+                    <img src="car1.jpg" style="width: 100%">
+                    <img src="fire.jpg" style="width: 100%">
+                </div>
+                <div class="column">
+                    <img src="car2.jpg" style="width: 100%">
+                    
+                </div>
+                <div class="column">
+                    <img src="bubbleboy.jpg" style="width: 100%">
+                </div>
+                <div class="column">
+                    <img src="aurora1.jpg" style="width: 100%">
+                    <img src="sunset.jpg" style="width: 100%">
+                </div>
+            </div>
+        </div>
+        <section>
+            <h2>About</h2>
+            <!-- Add information about yourself or your photography here -->
+            <p>Hi there! I'm a photographer and current computer engineering student
+                at the University of Canterbury. I like taking photo sometimes so here's
+                a random collection of photos I've taken over the years. Enjoy!
+            </p>
+            
+        </section>
+        
+        <section>
+            <h2>Contact</h2>
+            <!-- Add a contact form or your contact information here -->
+            <p>You can find me at:</p>
+            <ul>
+                <li>Instagram: <a href="https://www.instagram.com/chc_street_photos/">@chc_street_photos</a></li>
+                <li>Email: jerry.tan.chc (at) gmail (dot) com </li>
+
+            </ul>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Jerry Tan</p>
+    </footer>
 </body>
 </html>
