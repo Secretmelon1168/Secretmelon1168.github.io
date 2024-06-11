@@ -68,7 +68,7 @@ a:active {
   }
   
   /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1200px) {
     .column {
       flex: 49%;
       max-width: 49%;
